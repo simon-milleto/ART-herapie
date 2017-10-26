@@ -1,0 +1,71 @@
+{
+  "artists": [
+    {
+    "id": 1,
+    "name": "Ophélie",
+    "url": "https://randomuser.me/api/portraits/women/42.jpg",
+    "price": 40,
+    "range": 20,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "categories": [
+      "Peinture",
+      "Chant"
+    ]
+  },
+    {
+    "id": 2,
+    "name": "Mélanie",
+    "url": "https://randomuser.me/api/portraits/women/32.jpg",
+    "price": 34,
+    "range": 60,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "categories": [
+      "Peinture"
+    ]
+  },
+    {
+    "id": 3,
+    "name": "Simon",
+    "url": "https://randomuser.me/api/portraits/men/24.jpg",
+    "price": 64,
+    "range": 50,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "categories": [
+      "Sculpture"
+    ]
+  },
+    {
+    "id": 4,
+    "name": "Thierry",
+    "url": "https://randomuser.me/api/portraits/men/64.jpg",
+    "price": 12,
+    "range": 100,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "categories": [
+      "Peinture"
+    ]
+  },
+    {
+    "id": 5,
+    "name": "Antoine",
+    "url": "https://randomuser.me/api/portraits/men/43.jpg",
+    "price": 22,
+    "range": 60,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "categories": [
+      "Théâtre"
+    ]
+  },
+    {
+    "id": 6,
+    "name": "Lucas",
+    "url": "https://randomuser.me/api/portraits/men/12.jpg",
+    "price": 43,
+    "range": 30,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "categories": [
+      "Peinture"
+    ]
+  }
+]
+}
