@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { addNavigationHelpers, TabNavigator, StackNavigator } from 'react-navigation';
+import { Image, Text } from 'react-native';
 
 import Feed from './../pages/Feed';
 import Bookmark from './../pages/Bookmark';
@@ -11,9 +12,6 @@ import ProfilDetails from './../pages/ProfilDetails';
 export const FeedStack = StackNavigator({
   Feed: {
     screen: Feed,
-    navigationOptions: {
-      title: 'Feed',
-    },
   },
   ProfilDetails: {
     screen: ProfilDetails,
@@ -27,12 +25,29 @@ export const FeedStack = StackNavigator({
 const tabScenes = {
   Feed: {
     screen: FeedStack,
+    title: () => <Text />,
     navigationOptions: {
-      tabBarLabel: 'Feed',
+      tabBarIcon: () => <Image style={{width: 25, height: 30.5, position:'absolute', bottom: 5}} source={require('./../images/home.png')}/>,
     }
   },
-  Bookmark: { screen: Bookmark },
-  Search: { screen: Search },
+  Bookmark : {
+    screen: Bookmark,
+    navigationOptions: {
+      tabBarIcon: () => <Image style={{width: 25, height: 26, position:'absolute', bottom: 5}} source={require('./../images/coeur_menu.png')}/>,
+    }
+  },
+  Search : {
+    screen: Search,
+    navigationOptions: {
+      tabBarIcon: () => <Image style={{width: 25, height: 30.5, position:'absolute', bottom: 5}} source={require('./../images/messagerie.png')}/>,
+    }
+  },
+  Account : {
+    screen: Search,
+    navigationOptions: {
+      tabBarIcon: () => <Image style={{width: 25, height: 30.5, position:'absolute', bottom: 5}} source={require('./../images/compte.png')}/>,
+    }
+  },
 };
 
 const tabOptions = {
@@ -40,11 +55,15 @@ const tabOptions = {
   swipeEnabled: true,
   animationEnabled: true,
   tabBarOptions: {
+    showLabel: false,
     activeTintColor: '#fff',
-    activeBackgroundColor: '#1a1a1a',
+    activeBackgroundColor: '#fff',
     labelStyle: {
       fontSize: 16,
     },
+    style: {
+      height: 40
+    }
   },
 };
 

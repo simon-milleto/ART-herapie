@@ -38,7 +38,7 @@ class Feed extends Component {
     return (
       <View style={styles.full}>
         <Search onSearchChange={(search) => this.handleChange(search)}/>
-        <View style={styles.container}>
+        <View>
           <ListProfil list={filteredList} navigation={navigation}/>
         </View>
       </View>

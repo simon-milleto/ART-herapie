@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     paddingBottom: 10,
     shadowColor: "#000000",
-    shadowOpacity: 0.85,
+    shadowOpacity: 0.4,
     shadowRadius: 5,
     shadowOffset: {
       height: 0,
@@ -23,13 +23,16 @@ const styles = StyleSheet.create({
     }
   },
   picto: {
-    height: 40,
+    height: 39,
     flex: 1,
   },
   input: {
     paddingLeft: 10,
     paddingRight: 10,
     flex:8,
+    textAlign: 'right',
+    fontStyle: 'italic',
+    fontSize: 14
   }
 });
 
@@ -48,10 +51,10 @@ class Search extends Component {
         <Image style={styles.logo} source={require(`./../images/logo.png`)}/>
         <TextInput
           style={styles.input}
-          placeholder="Search"
+          placeholder="Rechercher"
           onChangeText={(text) => this.props.onSearchChange(text)}
         />
-        <Image style={styles.picto} source={require(`./../images/loupe.png`)}/>
+        <Image style={styles.picto} source={require(`./../images/loupe_v2.png`)}/>
       </View>
     );
   }

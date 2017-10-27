@@ -20,6 +20,7 @@ class ListProfil extends Component {
           data={list}
           renderItem={({item}) => <Profil artist={item} navigation={navigation}/>}
           keyExtractor={(item) => item.id}
+           contentContainerStyle={{paddingVertical: 40}}
         />
     );
   }
