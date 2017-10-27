@@ -1,192 +1,451 @@
 {
   "artists": [
     {
-    "id": 1,
-    "name": "Ophélie",
-    "url": "https://randomuser.me/api/portraits/women/42.jpg",
-    "price": 40,
-    "range": 20,
-    "projects": [
-      {
-        "url": "https://fakeimg.pl/100x100/"
+      "id": 1,
+      "name": "Ophélie",
+      "url": "https://randomuser.me/api/portraits/women/42.jpg",
+      "price": 40,
+      "range": 20,
+      "favorite": true,
+      "projects": [
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        }
+      ],
+      "dateAvailable": {
+        "2017-10-23": [
+          {
+            "startingDay": true,
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-24": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-25": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-26": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-27": [
+          {
+            "endingDay": true,
+            "color": "rgb(70, 214, 214)"
+          }
+        ]
       },
-      {
-        "url": "https://fakeimg.pl/100x100/"
-      },
-      {
-        "url": "https://fakeimg.pl/100x100/"
-      }
-    ],
-    "dateAvailable": {
-     "2017-10-23": [{"startingDay": true, "color": "rgb(70, 214, 214)"}],
-     "2017-10-24": [{"color": "rgb(70, 214, 214)"}],
-     "2017-10-25": [{"color": "rgb(70, 214, 214)"}],
-     "2017-10-26": [{"color": "rgb(70, 214, 214)"}],
-     "2017-10-27": [{"endingDay": true, "color": "rgb(70, 214, 214)"}]
-   },
-    "actions": [
-      "Performances",
-      "Ateliers"
-    ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "categories": [
-      "Peinture",
-      "Chant"
-    ]
-  },
+      "actions": [
+        "Performances",
+        "Ateliers"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "categories": [
+        "Peinture",
+        "Chant"
+      ]
+    },
     {
-    "id": 2,
-    "name": "Mélanie",
-    "url": "https://randomuser.me/api/portraits/women/32.jpg",
-    "price": 34,
-    "range": 60,
-    "projects": [
-      {
-        "url": "https://fakeimg.pl/100x100/"
+      "id": 2,
+      "name": "Mélanie",
+      "url": "https://randomuser.me/api/portraits/women/32.jpg",
+      "price": 34,
+      "range": 60,
+      "favorite": true,
+      "projects": [
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        }
+      ],
+      "dateAvailable": {
+        "2017-10-12": [
+          {
+            "startingDay": true,
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-13": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-14": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-15": [
+          {
+            "endingDay": true,
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-23": [
+          {
+            "startingDay": true,
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-24": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-25": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-26": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-27": [
+          {
+            "endingDay": true,
+            "color": "rgb(70, 214, 214)"
+          }
+        ]
       },
-      {
-        "url": "https://fakeimg.pl/100x100/"
-      },
-      {
-        "url": "https://fakeimg.pl/100x100/"
-      }
-    ],
-    "dateAvailable": {
-      "2017-10-12": [{"startingDay": true, "color": "rgb(70, 214, 214)"}],
-      "2017-10-13": [{"color": "rgb(70, 214, 214)"}],
-      "2017-10-14": [{"color": "rgb(70, 214, 214)"}],
-      "2017-10-15": [{"endingDay": true, "color": "rgb(70, 214, 214)"}],
-     "2017-10-23": [{"startingDay": true, "color": "rgb(70, 214, 214)"}],
-     "2017-10-24": [{"color": "rgb(70, 214, 214)"}],
-     "2017-10-25": [{"color": "rgb(70, 214, 214)"}],
-     "2017-10-26": [{"color": "rgb(70, 214, 214)"}],
-     "2017-10-27": [{"endingDay": true, "color": "rgb(70, 214, 214)"}]
-   },
-    "actions": [
-      "Ateliers"
-    ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "categories": [
-      "Peinture"
-    ]
-  },
+      "actions": [
+        "Ateliers"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "categories": [
+        "Peinture"
+      ]
+    },
     {
-    "id": 3,
-    "name": "Simon",
-    "url": "https://randomuser.me/api/portraits/men/24.jpg",
-    "price": 64,
-    "range": 50,
-    "projects": [
-      {
-        "url": "https://fakeimg.pl/100x100/"
-      }
-    ],
-    "dateAvailable": {
-     "2017-10-23": [{"startingDay": true, "color": "rgb(70, 214, 214)"}],
-     "2017-10-24": [{"color": "rgb(70, 214, 214)"}],
-     "2017-10-25": [{"color": "rgb(70, 214, 214)"}],
-     "2017-10-26": [{"color": "rgb(70, 214, 214)"}],
-     "2017-10-27": [{"endingDay": true, "color": "rgb(70, 214, 214)"}]
-   },
-    "actions": [
-      "Performances"
-    ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "categories": [
-      "Sculpture"
-    ]
-  },
+      "id": 3,
+      "name": "Simon",
+      "url": "https://randomuser.me/api/portraits/men/24.jpg",
+      "price": 64,
+      "range": 50,
+      "favorite": false,
+      "projects": [
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        }
+      ],
+      "dateAvailable": {
+        "2017-10-23": [
+          {
+            "startingDay": true,
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-24": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-25": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-26": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-27": [
+          {
+            "endingDay": true,
+            "color": "rgb(70, 214, 214)"
+          }
+        ]
+      },
+      "actions": [
+        "Performances"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "categories": [
+        "Sculpture"
+      ]
+    },
     {
-    "id": 4,
-    "name": "Thierry",
-    "url": "https://randomuser.me/api/portraits/men/64.jpg",
-    "price": 12,
-    "range": 100,
-    "projects": [
-      {
-        "url": "https://fakeimg.pl/100x100/"
-      }
-    ],
-    "dateAvailable": {
-     "2017-10-03": [{"startingDay": true, "color": "rgb(70, 214, 214)"}],
-     "2017-10-04": [{"color": "rgb(70, 214, 214)"}],
-     "2017-10-05": [{"color": "rgb(70, 214, 214)"}],
-     "2017-10-06": [{"color": "rgb(70, 214, 214)"}],
-     "2017-10-07": [{"endingDay": true, "color": "rgb(70, 214, 214)"}]
-   },
-    "actions": [
-      "Expositions",
-      "Ateliers"
-    ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "categories": [
-      "Peinture"
-    ]
-  },
+      "id": 4,
+      "name": "Thierry",
+      "url": "https://randomuser.me/api/portraits/men/64.jpg",
+      "price": 12,
+      "range": 100,
+      "favorite": false,
+      "projects": [
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        }
+      ],
+      "dateAvailable": {
+        "2017-10-03": [
+          {
+            "startingDay": true,
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-04": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-05": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-06": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-07": [
+          {
+            "endingDay": true,
+            "color": "rgb(70, 214, 214)"
+          }
+        ]
+      },
+      "actions": [
+        "Expositions",
+        "Ateliers"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "categories": [
+        "Peinture"
+      ]
+    },
     {
-    "id": 5,
-    "name": "Antoine",
-    "url": "https://randomuser.me/api/portraits/men/43.jpg",
-    "price": 22,
-    "range": 60,
-    "projects": [
-      {
-        "url": "https://fakeimg.pl/100x100/"
+      "id": 5,
+      "name": "Antoine",
+      "url": "https://randomuser.me/api/portraits/men/43.jpg",
+      "price": 22,
+      "range": 60,
+      "favorite": false,
+      "projects": [
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        }
+      ],
+      "dateAvailable": {
+        "2017-10-24": [
+          {
+            "startingDay": true,
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-25": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-26": [
+          {
+            "endingDay": true,
+            "color": "rgb(70, 214, 214)"
+          }
+        ]
       },
-      {
-        "url": "https://fakeimg.pl/100x100/"
-      }
-    ],
-    "dateAvailable": {
-     "2017-10-24": [{"startingDay": true, "color": "rgb(70, 214, 214)"}],
-     "2017-10-25": [{"color": "rgb(70, 214, 214)"}],
-     "2017-10-26": [{"endingDay": true, "color": "rgb(70, 214, 214)"}]
-   },
-    "actions": [
-      "Performances"
-    ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "categories": [
-      "Théâtre"
-    ]
-  },
+      "actions": [
+        "Performances"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "categories": [
+        "Théâtre"
+      ]
+    },
     {
-    "id": 6,
-    "name": "Lucas",
-    "url": "https://randomuser.me/api/portraits/men/12.jpg",
-    "price": 43,
-    "range": 30,
-    "projects": [
-      {
-        "url": "https://fakeimg.pl/100x100/"
+      "id": 6,
+      "name": "Lucas",
+      "url": "https://randomuser.me/api/portraits/men/12.jpg",
+      "price": 43,
+      "range": 30,
+      "favorite": true,
+      "projects": [
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        }
+      ],
+      "dateAvailable": {
+        "2017-10-12": [
+          {
+            "startingDay": true,
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-13": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-14": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-15": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-16": [
+          {
+            "endingDay": true,
+            "color": "rgb(70, 214, 214)"
+          }
+        ]
       },
-      {
-        "url": "https://fakeimg.pl/100x100/"
+      "actions": [
+        "Expositions"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "categories": [
+        "Peinture"
+      ]
+    },
+    {
+      "name": "Ophélie",
+      "url": "https://randomuser.me/api/portraits/women/42.jpg",
+      "price": 40,
+      "range": 20,
+      "favorite": true,
+      "projects": [
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        },
+        {
+          "url": "https://fakeimg.pl/250x250/"
+        }
+      ],
+      "dateAvailable": {
+        "2017-10-23": [
+          {
+            "startingDay": true,
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-24": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-25": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-26": [
+          {
+            "color": "rgb(70, 214, 214)"
+          }
+        ],
+        "2017-10-27": [
+          {
+            "endingDay": true,
+            "color": "rgb(70, 214, 214)"
+          }
+        ]
       },
-      {
-        "url": "https://fakeimg.pl/100x100/"
-      },
-      {
-        "url": "https://fakeimg.pl/100x100/"
-      },
-      {
-        "url": "https://fakeimg.pl/100x100/"
-      }
-    ],
-    "dateAvailable": {
-     "2017-10-12": [{"startingDay": true, "color": "rgb(70, 214, 214)"}],
-     "2017-10-13": [{"color": "rgb(70, 214, 214)"}],
-     "2017-10-14": [{"color": "rgb(70, 214, 214)"}],
-     "2017-10-15": [{"color": "rgb(70, 214, 214)"}],
-     "2017-10-16": [{"endingDay": true, "color": "rgb(70, 214, 214)"}]
-   },
-    "actions": [
-      "Expositions"
-    ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "categories": [
-      "Peinture"
-    ]
-  }
-]
+      "actions": [
+        "Performances",
+        "Ateliers"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "categories": [
+        "Peinture",
+        "Chant"
+      ],
+      "id": 7
+    }
+  ]
 }

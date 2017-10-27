@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import { View, ScrollView, Text, Image, StyleSheet, Button, TouchableOpacity, Animated, FlatList } from 'react-native';
+import { StackNavigator } from 'react-navigation';
 import { text, textBold, textBlue, textThin, button } from './../config';
 import { Calendar, CalendarList, Agenda } from 'react-native-calendars';
+
+import ProfilComp from './../components/ProfilComp';
 
 const styles = StyleSheet.create({
   textBold,
@@ -16,26 +19,7 @@ const styles = StyleSheet.create({
     paddingRight: 20,
     backgroundColor: 'white'
   },
-  photo: {
-    width: 100,
-    height: 100
-  },
-  descBlock: {
-    display: 'flex',
-    flexDirection: 'row'
-  },
-  textDesc: {
-    paddingLeft: 10,
-    flex:4,
-    justifyContent: 'flex-start',
-    flexDirection: 'column'
-  },
   text,
-  blockPrice: {
-    flex: 1,
-    flexDirection: 'column',
-    justifyContent: 'space-between'
-  },
   iconFleche: {
     width: 12,
     height: 12,
@@ -60,33 +44,21 @@ class ProfilDetails extends Component {
     }
   }
 
+  handleReservation = (artist) => {
+    this.props.navigation.navigate('Reservation', {artist});
+  };
+
+  handleContact = () => {
+    const { artist } = this.props.navigation.state.params;
+    this.props.navigation.navigate('Conversation', {artist});
+  };
+
   render() {
     const { calendar } = this.state;
     const { artist } = this.props.navigation.state.params;
-    let categories = '';
-    let actions = '';
-    artist.categories.forEach((category, index) => {
-      categories += index == 0 ? category : ` | ${category}`;
-    });
-    artist.actions.forEach((act, index) => {
-      actions += index == 0 ? act : ` | ${act}`;
-    });
     return (
       <ScrollView style={styles.full} contentContainerStyle={{paddingVertical: 40}}>
-        <View style={styles.descBlock}>
-          <Image style={styles.photo} source={{
-            uri: artist.url
-          }}/>
-          <View style={styles.textDesc}>
-            <Text style={styles.textBold}>{artist.name.toUpperCase()}</Text>
-            <Text style={styles.textBlue}>{categories}</Text>
-            <Text style={styles.textThin}>{actions}</Text>
-          </View>
-          <View style={styles.blockPrice}>
-            <Image style={{width: 33, height: 30}} source={require('./../images/coeur_plein.png')}/>
-            <Text style={styles.textPrice}>{artist.price}€</Text>
-          </View>
-        </View>
+        <ProfilComp artist={artist}/>
         <View>
           <Text style={styles.text}>{artist.description}</Text>
         </View>
@@ -120,7 +92,7 @@ class ProfilDetails extends Component {
             hideDayNames={true}
           /> : null}
           </View>
-          <TouchableOpacity style={{marginTop: 20}}>
+          <TouchableOpacity onPress={() => this.handleContact()} style={{marginTop: 20}}>
             <View style={styles.button}>
               <Text style={styles.text}>Contacter cet artiste</Text>
             </View>
@@ -133,11 +105,11 @@ class ProfilDetails extends Component {
               data={artist.projects}
               horizontal={true}
               style={{display: 'flex'}}
-              renderItem={({item}) => <Image style={{width: 100, height: 100, marginLeft: 10, paddingBottom: 20}} source={{uri: item.url}}/>}
+              renderItem={({item}) => <Image style={{width: 90, height: 90, marginLeft: 10, paddingBottom: 20}} source={{uri: item.url}}/>}
               keyExtractor={(item, i) => i}
             />
           </View>
-          <TouchableOpacity onPress={this.handleClick} style={{marginTop: 20}}>
+          <TouchableOpacity onPress={() => this.handleReservation(artist)} style={{marginTop: 20}}>
             <View style={styles.buttonBlue}>
               <Text style={styles.textLight}>Reserver cet artiste</Text>
             </View>
@@ -146,15 +118,9 @@ class ProfilDetails extends Component {
     );
   }
 
-
-
   toggleCalendar = () => {
     const { calendar } = this.state;
     this.setState({calendar: !calendar});
-  }
-
-  handleClick = (target) => {
-    console.log(target);
   }
 
 }
